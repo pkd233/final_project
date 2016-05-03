@@ -1,0 +1,53 @@
+#dani1 {
+  width: 450px;
+  height: 350px;
+  background: url('dani1.png');
+  background-size: 450px 350px;
+  margin-left:0px;
+  margin-top:0px;
+}
+
+#dani2 {
+  width: 450px;
+  height: 350px;
+  background: url('dani2.png');
+  background-size: 450px 350px;
+  margin-left:450px;
+  margin-top:-200px;
+}
+
+#dani3 {
+  width: 450px;
+  height: 350px;
+  background: url('dani3.png');
+  background-size: 450px 350px;
+  margin-left:900px;
+  margin-top:-200px;
+}
+
+#dani1, #dani2, #dani3 {
+  float: center;
+}
+
+img {
+  transition-property: opacity;
+  transition-duration: 1s;
+  width: 450px;
+  height: 350px;
+  background-size: 450px 350px;
+  align: middle;
+}
+
+img:hover {
+  opacity: 0;
+}
+
+h1, p {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+  	color:white;
+}
+
+body {
+  background-color: black;
+}
